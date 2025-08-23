@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-inicio {
+    font-size: 16px;
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+    font-weight: bold;
+    text-align: center;
+ 
+    background-image: url('img/pao.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+ 
+}
+
+.container-inicio h1 {
+    color: rgb(0, 0, 0);
+}
+
+.container-inicio p {
+    color: rgb(0, 0, 0);
+}
+
+
+.container-principal {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    background-color: rgb(124, 238, 162);
+    height: 500px;
+ 
+
+}
+
+.caixa-um {
+    display: flex;
+    align-items: stretch;
+    padding: 80px;
+    background-color: blueviolet;
+    width: 300px;
+    height: 300px;
+
+}
+
+.caixa-dois {
+    display: flex;
+    background-color: aquamarine;
+    width: 300px;
+    height: 300px;
+}
+
+.caixa-tres {
+    display: flex;
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+}
+
+.caixa-quatro {
+    display: flex;
+    background-color: rgb(255, 0, 204);
+    width: 300px;
+    height: 300px;
+}
+
+
+
