@@ -4,69 +4,212 @@
     box-sizing: border-box;
 }
 
-.container-inicio {
-    font-size: 16px;
-    /* font-family:Georgia, 'Times New Roman', Times, serif; */
-    font-weight: bold;
-    text-align: center;
+body {
+    font-family: "Playfair Display", serif;
+    font-weight: normal;
+    
+}
+
+.logo img {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+   
+ }
  
-    background-image: url('img/pao.jpg');
+
+ .header {
+    background-color: #7F4F24;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+
+ }
+
+ .nav-menu {
+    list-style: none;
+    display: flex;
+    justify-items: center;
+    margin-left: 600px;
+    gap: 50px;
+
+}
+
+.nav-menu li a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: medium;
+    text-decoration: none; /* tira o sublinhado */
+    color: #FFEEDF /* define a cor do texto */
+  }
+
+.inicio {
+    background-image: url(/img/imagem-fundo-paes.jpg);
+    background-size: cover;  
     background-repeat: no-repeat;
-    background-size: cover;
-  
+    background-position: center;
+    padding-top: 20px;
+    height: 500px;             
+    display: flex;
+    flex-direction: column;
+
+}
+
+.titulo-inicio {
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFEEDF;
+    display: flex;
+    margin-left: 50px ;
+    margin-top: 30px;
+}
+
+.paragraf-inicio {
+    font-family: "Playfair", serif;
+    font-weight: bold;
+    color: #FFEEDF;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 25px;
+    margin-bottom: 80px;
+}
+
+.mais-produtos {
+    font-family: "Montserrat", sans-serif;
+    font-weight: medium;
+    color: #FFEEDF;
+    text-decoration: none;
+    border-bottom: 1px solid #FFEEDF;
+    width: fit-content; 
+    font-size: 18px;
+    padding-bottom: 5px;
+    margin-left: 50px;
+}
+
+.produtos-favoritos {
+    flex-direction: column;
+    background-color: #FFEEDF;
+    color: #7F4F24;
+    font-weight: bold;
+    font-size: 26px;
+    display: flex;
+    padding-left: 50px; 
+    padding-top: 30px;
+
+}
+
+.texto-favoritos p {
+    font-family: "Playfair", serif;
+    font-size: 23px;
+    margin-top: 30px;
+    display: flex;  
  
 }
 
-.container-inicio h1 {
-    color: rgb(0, 0, 0);
+.produtos-link {
+    font-family: "Playfair", serif;
+    font-weight: medium;
+    color: #7F4F24;
+    text-decoration: none;
+    border-bottom: 1px solid #DA8338;
+    width: fit-content; 
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
 }
 
-.container-inicio p {
-    color: rgb(0, 0, 0);
-}
 
-
-.container-principal {
+/* .texto-favoritos p {
+    background-color: #FFEEDF;
+    color: #ffffff;
+    font-size: 18px;
     display: flex;
-    justify-content: space-around;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    background-color: rgb(124, 238, 162);
-    height: 500px;
- 
+    padding-left: 30px; 
+    padding-top: 10px;
+    padding-right: 30px;
+    text-align: center;
+    margin-bottom: 30px;
 
-}
+} */
 
-.caixa-um {
-    display: flex;
-    align-items: stretch;
-    padding: 80px;
-    background-color: blueviolet;
+.imagens-favoritos img {
+    box-shadow: 0 0 15px #4e4e4e;
+    margin-top: -250px;
     width: 300px;
-    height: 300px;
+    height: 450px;
+}
+
+
+
+.produto p {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.imagens-favoritos {
+    display: flex; 
+    margin-left: 45%;
+    gap: 10px;
+    justify-content: center;
+    padding-bottom: 60px;
+
 
 }
 
-.caixa-dois {
+.container-tradicao {
+    background-color: #7F4F24;
+    color: #FFEEDF;
+    text-align: justify;
+    font-weight: bold;
     display: flex;
-    background-color: aquamarine;
-    width: 300px;
-    height: 300px;
+    padding: 50px;
+    gap: 50px;
 }
 
-.caixa-tres {
+.tradicao {
+    font-family: "Playfair", serif;
+    font-weight: medium;
+    font-size: 26px;
     display: flex;
-    background-color: blue;
-    width: 300px;
-    height: 300px;
-}
-
-.caixa-quatro {
-    display: flex;
-    background-color: rgb(255, 0, 204);
-    width: 300px;
-    height: 300px;
+    flex-direction: column; /* Mantém os elementos em coluna */
+    align-items: flex-start; /* Mude de align-content para align-items */
+    justify-content: flex-start; /* Adicione isso para alinhar no topo */
 }
 
 
+/* .tradicao-texto  {
+    font-family: "Playfair", serif;
+    font-size: 18px;
 
+} */
+
+.sobrenos-link {
+    font-family: "Playfair", serif;
+    font-weight: medium;
+    color: #FFEEDF;
+    text-decoration: none;
+    border-bottom: 1px solid #DA8338;
+    width: fit-content; 
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.img-tradicao img {
+    width: 600px;
+    height: 400px;
+    box-shadow: 0 0 15px #353535;
+
+
+}
+.container-ramos {
+/*     padding: 100px; */
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+}
